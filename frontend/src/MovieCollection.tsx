@@ -5,7 +5,7 @@ import MovieList from './Movies';
 const MovieCollection: React.FC = () => {
   return (
     <div className="App">
-      <h1>Joel' Movie Collection</h1>
+      <h1>Joel's Movie Collection</h1>
       {/* <TopBanner websiteTitle="Riley's Website!" /> */}
       <MovieList />{' '}
     </div>

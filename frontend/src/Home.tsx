@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home: React.FC = () => {
+function Home() {
   return (
     <div className="App">
       <h1>Welcome To The Joel Hilton Fanpage</h1>
@@ -11,6 +11,6 @@ const Home: React.FC = () => {
       <img src="./JoelHiltonHeadshot.jpg" alt="Joel's Headshot" />
     </div>
   );
-};
+}
 
 export default Home;

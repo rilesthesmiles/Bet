@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Podcast: React.FC = () => {
+function Podcast() {
   return (
     <div className="App">
       <h1>Joel's Podcast</h1>
@@ -8,6 +8,6 @@ const Podcast: React.FC = () => {
       <a href="https://baconsale.com/">Joel's Podcast</a>
     </div>
   );
-};
+}
 
 export default Podcast;

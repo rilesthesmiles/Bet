@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar: React.FC = () => {
+function Navbar() {
   return (
     // <nav className="navbar">
     //   {/* <ul>
@@ -55,6 +55,6 @@ const Navbar: React.FC = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;
