@@ -22,10 +22,6 @@ function MovieList() {
 
   return (
     <>
-      <div>
-        <h3>Joel Hilton's Movie Collection</h3>
-      </div>
-
       <table className="table">
         <thead>
           <tr>
@@ -34,6 +30,7 @@ function MovieList() {
             <th>Director</th>
             <th>Rating</th>
             <th>Category</th>
+            <th>Edited</th>
           </tr>
         </thead>
 
@@ -45,14 +42,15 @@ function MovieList() {
               <td>{m.Director}</td>
               <td>{m.Rating}</td>
               <td>{m.Category}</td>
+              <td>{m.Edited}</td>
             </tr>
           ))}
         </tbody>
       </table>
 
-      <button className="btn btn-primary" onClick={addMovie}>
+      {/* <button className="btn btn-primary" onClick={addMovie}>
         Add Movie
-      </button>
+      </button> */}
     </>
   );
 }
